@@ -1,3 +1,4 @@
+
 'use strict';
 
 require('../../TestHelper');
@@ -1615,6 +1616,23 @@ describe('Canvas', function() {
       }));
 
     });
+
+  });
+
+  describe('layers', function() {
+
+    it('get default layer', inject(function() {
+
+    }));
+
+
+    it('create layer', inject(function() {}));
+
+
+    it('get existing layer', inject(function() {}));
+
+
+    it('should create layer at child index 2', inject(function() {}));
 
   });
 
